@@ -1,0 +1,39 @@
+# Architecture
+
+> Living document. Updated by the docs-keeper agent after each feature merge.
+
+## Overview
+
+[One paragraph: high-level architecture of the app. What are the main layers/modules and how do they connect?]
+
+## Module Map
+
+```
+[Visual representation of the main modules and their relationships]
+```
+
+## Patterns
+
+### [Pattern name, e.g., "Data fetching"]
+- [How it works in this project]
+- [Files that demonstrate this pattern]
+
+### [Pattern name, e.g., "Error handling"]
+- [How it works in this project]
+- [Files that demonstrate this pattern]
+
+## Module Boundaries
+
+| Module | Responsibility | Can depend on | Must NOT depend on |
+|--------|---------------|---------------|-------------------|
+| [name] | [what it does] | [allowed deps] | [forbidden deps] |
+
+## Dependencies
+
+| Package | Why we use it | Added on |
+|---------|--------------|----------|
+| [name]  | [reason]     | [date]   |
+
+## Data Flow
+
+[How data moves through the app: user action → state → API → response → UI update]

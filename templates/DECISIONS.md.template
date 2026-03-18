@@ -1,0 +1,22 @@
+# Decisions Log
+
+> Living document. Records significant technical and product decisions.
+> Updated by the docs-keeper agent after each feature merge.
+
+<!-- Template for new entries:
+
+## [YYYY-MM-DD] — [Decision title]
+
+**Context:** [What situation prompted this decision?]
+
+**Options considered:**
+1. [Option A] — [pros/cons]
+2. [Option B] — [pros/cons]
+
+**Decision:** [What we chose]
+
+**Rationale:** [Why we chose it]
+
+**Revisit if:** [Under what conditions should we reconsider?]
+
+-->

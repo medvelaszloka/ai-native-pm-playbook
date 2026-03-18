@@ -1,0 +1,47 @@
+# [Project Name]
+
+> One-paragraph description of what this project does and who it's for.
+
+## Tech Stack
+
+- **Framework:** [e.g., Next.js 15, SwiftUI, etc.]
+- **Language:** [e.g., TypeScript, Swift]
+- **Styling:** [e.g., Tailwind CSS, SwiftUI native]
+- **Database:** [e.g., Supabase, CoreData, none]
+- **Deployment:** [e.g., Vercel, App Store, etc.]
+
+## Directory Structure
+
+```
+src/
+├── [folder]/          ← [what lives here]
+├── [folder]/          ← [what lives here]
+└── [folder]/          ← [what lives here]
+```
+
+## Conventions
+
+- **Components:** [e.g., PascalCase, one component per file]
+- **Files:** [e.g., kebab-case.ts]
+- **State management:** [e.g., React Context, Zustand, SwiftUI @State]
+- **API calls:** [e.g., server actions, REST, GraphQL]
+
+## Testing
+
+- **Framework:** [e.g., Vitest, XCTest]
+- **Run tests:** `[command to run tests]`
+- **Test location:** [e.g., `__tests__/` next to source files]
+
+## Decision Framework
+
+This project follows the Agentic Playbook decision boundaries:
+- **Business/UX decisions:** Human decides (always)
+- **Architecture decisions:** Agents propose, human approves
+- **Implementation decisions:** Agents decide autonomously
+
+See: [agentic-playbook.md](../agentic-playbook.md) for full framework.
+
+## Key Context
+
+- [Any important business context, constraints, or non-obvious decisions]
+- [Links to ARCHITECTURE.md and DECISIONS.md once they exist]
