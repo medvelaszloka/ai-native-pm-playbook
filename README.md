@@ -6,7 +6,7 @@ A system for shipping production apps using AI agents. Designed for product mana
 
 This is a complete methodology for building software with AI coding agents. It includes:
 
-- **4 specialized agents** (Planner, Builder, Reviewer, Docs-Keeper) with defined roles, decision boundaries, and model assignments
+- **5 specialized agents** (Planner, Builder, Reviewer, Docs-Keeper, Retro) with defined roles, decision boundaries, and model assignments
 - **A decision boundary framework** that keeps you in control of product and UX decisions while agents handle implementation autonomously
 - **Code quality standards** enforced by the agents — no spaghetti code, proper tests, self-documenting codebase
 - **Project templates** to bootstrap new projects in minutes
@@ -29,6 +29,7 @@ REVIEWER    → Reviews the diff against plan + architecture + security
 BUILDER     → Fixes if needed
 YOU         → Final check, merge
 DOCS-KEEPER → Updates project context files
+RETRO       → Analyzes patterns across reviews, proposes agent improvements
 ```
 
 ### Decision Boundaries

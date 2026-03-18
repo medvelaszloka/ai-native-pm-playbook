@@ -48,7 +48,7 @@ Every decision during development falls into one of three tiers:
 
 ## 3. Agent Roles
 
-Four roles, not four separate tools. All run inside Claude Code.
+Five roles, not five separate tools. All run inside Claude Code.
 
 ### Planner (Opus)
 
@@ -95,6 +95,17 @@ Four roles, not four separate tools. All run inside Claude Code.
   - KNOWN_ISSUES.md -> anything deferred
 - Keeps context files alive so they don't drift
 
+### Retro (Opus)
+
+- Runs manually — every ~5 merged features, monthly, or when something feels off
+- Analyzes:
+  - Recent git history across active projects
+  - Reviewer patterns (recurring issues, false alarms)
+  - Decision boundary friction (too tight or too loose)
+  - Workflow bottlenecks (planning overhead, skipped steps)
+- Outputs proposed changes to agent definitions and playbook
+- **Rule:** Only flags patterns (3+ occurrences), never one-offs. Proposes, never auto-applies.
+
 ---
 
 ## 4. Workflow
@@ -125,6 +136,8 @@ For every feature:
 7. ME          → Final sanity check, merge
                  ↓
 8. DOCS-KEEPER → Updates context files
+                 ↓
+9. RETRO       → (Periodic) Analyzes patterns, proposes agent improvements
 ```
 
 ### When to break the workflow:
@@ -145,6 +158,7 @@ For every feature:
 | Builder | Sonnet | Bulk of the work. Well-defined tasks. ~5x cheaper than Opus. |
 | Reviewer | Sonnet | Needs good judgment but scoped to a diff. Moderate cost, high value. |
 | Docs-Keeper | Haiku | Mechanical updates. ~60x cheaper than Opus. |
+| Retro | Opus | Needs deep reasoning to spot patterns across reviews. Low volume (runs manually, ~monthly). |
 
 ### Why not multi-tool (Claude + Cursor + Codex)?
 
