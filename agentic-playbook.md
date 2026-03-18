@@ -227,7 +227,65 @@ project-root/
 
 ---
 
-## 7. Open Questions
+## 7. System Feedback Loop
+
+The agents review code. But who reviews the agents? You do — periodically.
+
+### When to run a retrospective
+
+- Every ~5 merged features, OR
+- Monthly (whichever comes first), OR
+- When something feels off (same issues keep appearing, workflow feels slow)
+
+### The retrospective checklist
+
+Run through these questions. Update agents and playbook based on what you find.
+
+#### What patterns did the Reviewer keep flagging?
+
+If the same issue appears in 3+ reviews, it's not a code problem — it's an instruction gap.
+
+→ **Fix:** Add it to the Builder's Code Standards so it stops happening.
+
+#### What did you override or reject?
+
+If you keep overriding agent decisions, the decision boundaries are wrong.
+
+→ **Fix:** Adjust which tier that type of decision falls into (move from agent-decides to agent-proposes, or vice versa).
+
+#### What slowed you down?
+
+Was the planning phase overkill for small features? Did you skip steps? Did context files drift out of date?
+
+→ **Fix:** Simplify the workflow, adjust "when to break the workflow" rules.
+
+#### What surprised you?
+
+Good surprises (agent made a great call you didn't expect) and bad surprises (agent went in a completely wrong direction).
+
+→ **Fix:** Capture good patterns in CLAUDE.md. Add guardrails for bad ones in agent prompts.
+
+#### Are the agents the right shape?
+
+Do you need the docs-keeper, or is it noise? Should the planner run on Sonnet instead of Opus? Is the reviewer too strict or too lenient?
+
+→ **Fix:** Update agent definitions and model assignments.
+
+### How to update
+
+1. Make changes to agent files in `/projects/ai-native-pm-playbook/agents/`
+2. Commit with a message explaining WHAT changed and WHY (the git history is your system's evolution story)
+3. Push to GitHub — your public playbook evolves visibly over time
+
+### What NOT to change reactively
+
+- Don't rewrite agents after a single bad experience — wait for patterns
+- Don't add rules for edge cases that won't recur — keep agents lean
+- Don't remove checks because they were annoying once — they probably caught real issues
+
+---
+
+## 8. Open Questions
 
 Things not yet decided — revisit as I gain experience with this system:
 
@@ -239,7 +297,7 @@ Things not yet decided — revisit as I gain experience with this system:
 
 ---
 
-## 8. Origins & References
+## 9. Origins & References
 
 - Daniel Roth's "Bob the Builder & Ray the Reviewer" system — dual-agent Claude Code workflow for iOS development
   - [Lenny's Newsletter: From journalist to iOS developer](https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer)

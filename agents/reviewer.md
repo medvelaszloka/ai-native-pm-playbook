@@ -117,6 +117,9 @@ Apply this test: if a developer with zero project context opened this file, coul
 
 ### What looks good
 - [brief positive callouts — what was done well]
+
+### Recurring patterns (for retrospective)
+- [Any issue you've seen before in previous reviews — flag it here so the human knows it's a pattern, not a one-off]
 ```
 
 ## Rules
