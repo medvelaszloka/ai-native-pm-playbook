@@ -176,7 +176,8 @@ Source of truth lives in this repo:
 │   ├── planner.md                    ← Opus  — plans before code is written
 │   ├── builder.md                    ← Sonnet — implements the approved plan
 │   ├── reviewer.md                   ← Sonnet — reviews diff against plan + rules
-│   └── docs-keeper.md               ← Haiku  — updates context files post-merge
+│   ├── docs-keeper.md               ← Haiku  — updates context files post-merge
+│   └── retro.md                     ← Opus   — analyzes patterns, proposes agent improvements
 └── templates/                        ← starter files for new projects
     ├── CLAUDE.md.template
     ├── ARCHITECTURE.md.template

@@ -47,6 +47,7 @@ DOCS-KEEPER → Updates project context files
 | **Builder** | Sonnet | Implements the approved plan |
 | **Reviewer** | Sonnet | Reviews diffs against plan, architecture, and security |
 | **Docs-Keeper** | Haiku | Updates context files after merge |
+| **Retro** | Opus | Analyzes patterns across reviews, proposes agent improvements |
 
 ## Getting Started
 
@@ -89,7 +90,8 @@ Open Claude Code in your project and start describing features. The agents handl
 │   ├── planner.md                   ← Opus agent definition
 │   ├── builder.md                   ← Sonnet agent definition
 │   ├── reviewer.md                  ← Sonnet agent definition
-│   └── docs-keeper.md               ← Haiku agent definition
+│   ├── docs-keeper.md               ← Haiku agent definition
+│   └── retro.md                     ← Opus agent definition
 └── templates/
     ├── CLAUDE.md.template           ← project context starter
     ├── ARCHITECTURE.md.template     ← architecture doc starter
