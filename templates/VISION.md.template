@@ -1,0 +1,41 @@
+# Product Vision
+
+## What is this?
+
+> One-paragraph description of the product: what it does, what problem it solves, and why it matters.
+
+## Who is it for?
+
+- **Primary user:** [who is the main user, what do they care about]
+- **Secondary user:** [if applicable]
+
+## Core Problem
+
+[What pain point or unmet need does this product address? Be specific.]
+
+## Product Principles
+
+- [Principle 1 — e.g., "Simple over feature-rich"]
+- [Principle 2 — e.g., "Mobile-first"]
+- [Principle 3 — e.g., "Data stays on device"]
+
+## Current Focus
+
+> What are you building right now and why? Update this as priorities shift.
+
+### Now
+
+- [Current milestone or feature set you're working toward]
+
+### Next
+
+- [What comes after the current focus]
+
+### Later
+
+- [Longer-term ideas — not committed, just directional]
+
+## Non-Goals
+
+- [What this product explicitly does NOT try to do]
+- [Helps agents avoid scope creep]

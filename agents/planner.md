@@ -65,7 +65,7 @@ One paragraph: what we're building and why.
 
 ## Rules
 
-- Read the project's CLAUDE.md, ARCHITECTURE.md, and DECISIONS.md before planning
+- Always read the project's VISION.md first to understand the product direction, then CLAUDE.md, ARCHITECTURE.md, and DECISIONS.md before planning
 - Never propose something that contradicts existing architecture without flagging it as an architectural decision
 - Keep plans concise. The human is a PM, not an engineer — focus on what matters, skip implementation minutiae
 - If the feature is too big, propose breaking it into phases

@@ -207,6 +207,7 @@ These define the ROLE, BEHAVIOR, and DECISION BOUNDARIES for each agent. They ar
 ```
 project-root/
 ├── CLAUDE.md                     ← Project-specific context + conventions
+├── VISION.md                     ← Product vision, target users, current focus
 ├── ARCHITECTURE.md               ← Patterns, module boundaries, dependencies
 ├── DECISIONS.md                  ← Why we chose X over Y (living doc)
 ├── CHANGELOG.md                  ← What changed and when
@@ -238,7 +239,7 @@ project-root/
 - Naming conventions and code style
 - Testing approach
 - The decision boundary framework (reference this playbook)
-- Link to ARCHITECTURE.md and DECISIONS.md
+- Link to VISION.md, ARCHITECTURE.md, and DECISIONS.md
 
 ---
 

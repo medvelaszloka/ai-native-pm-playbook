@@ -41,7 +41,12 @@ This project follows the Agentic Playbook decision boundaries:
 
 See: [agentic-playbook.md](../agentic-playbook.md) for full framework.
 
+## Product Context
+
+- [VISION.md](./VISION.md) — Product vision, target users, and current focus
+
 ## Key Context
 
 - [Any important business context, constraints, or non-obvious decisions]
-- [Links to ARCHITECTURE.md and DECISIONS.md once they exist]
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture and module boundaries
+- [DECISIONS.md](./DECISIONS.md) — Technical and product decision log
